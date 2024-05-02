@@ -1,0 +1,181 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #071C4D;
+}
+
+.navbar {
+  background-color: #171717;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.nav-item {
+  margin-right: 24px;
+  font-weight: 200;
+}
+
+.nav-item.active a {
+  color: #F9B234 !important;
+  font-weight: 600;
+}
+
+.nav-link span {
+  color: #F9B234;
+  font-weight: 600;
+}
+
+.btn -navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+.btn-login:hover {
+  background-color: #1e3371;
+  color: #fff;
+}
+
+.header {
+  padding: 148px 0 165px;
+  margin-top: -90px;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
+}
+.header h3, .header p {
+  color: #fff;
+}
+.header h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.header p {
+  font-size: 22px;
+}
+.header .btn-get-started {
+  background-color: #F9B234;
+  color: #fff;
+}
+.header .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #171717;
+  padding-left: 40px;
+  color: white;
+}
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+.section-popular .section-popular-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #F9B234;
+  color: #fff;
+}
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #FFAe6f;
+  color: #fff;
+}
+
+.section-network {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  margin-bottom: 50px;
+}
+.section-network h2 {
+  font-family: "PlayfairDisplay", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-network p {
+  font-size: 18px;
+}
+.section-network img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.section-testimonial-heading p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}/*# sourceMappingURL=main.css.map */

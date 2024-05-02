@@ -1,0 +1,233 @@
+
+
+
+
+
+
+
+body {
+    background-color: #ffffff;
+    font-family: "Assistant", sans-serif;
+    color: #071C4D;
+}
+
+
+.navbar{
+    background-color: #171717;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-brand{
+    img{
+        max-height: 40px;
+    }
+}
+
+
+.nav-item {
+  margin-right: 24px;
+  font-weight: 200;
+}
+
+.nav-item.active a {
+  color: #F9B234 !important;
+  font-weight: 600;
+}
+
+.nav-link span {
+  color: #F9B234;
+  font-weight: 600;
+} 
+
+
+
+.btn -navbar-right{
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login{
+    background-color: #071C4D;
+    color: #fff;
+
+    &:hover{
+        background-color: #1e3371;
+    color: #fff;
+    }
+}
+
+.header{
+    padding: 148px 0 165px;
+    margin-top: -90px;
+    background-image: url('../images/header-background.jpg');
+    background-size: cover;
+
+    h3,p{
+        color: #fff;
+    }
+
+    h3{
+        font-family: 'Playfair Display',serif;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    .btn-get-started{
+        background-color: #F9B234;
+        color: #fff;
+
+        &:hover{
+        background-color: #FFAA69;
+        color: #fff;
+        }
+    }
+}
+
+
+// statics
+.section-stats{
+    margin-top: -50px;
+
+    .stats-detail{
+        padding-top: 15px;
+        background-color: #171717;
+        padding-left: 40px;
+        color: white;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+}
+
+// popular
+.section-popular{
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading{
+        margin-top: 150px;
+
+        h2,p{
+            color: #fff;
+        }
+
+        h2{
+            font-family: 'Playfair Display',serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+    }
+}
+
+.section-popular-content{
+        .section-popular-travel{
+            .card-travel{
+                min-height: 380px;
+                background-color: #000;
+                color: #fff;
+                padding: 30px;
+                background-size: cover;
+                margin-bottom: 20px;
+            }
+
+            .travel-country{
+                font-size: 18px;
+                color:#fff;
+            }
+
+            .travel-location{
+                font-size: 26px;
+                color:#fff;
+            }
+
+            .travel-button{
+                .btn-travel-details{
+                    background-color: #F9B234;
+                    color: #fff;
+
+                    &:hover{
+        background-color: #FFAe6f;
+        color: #fff;
+    }
+                }
+            }
+
+        }
+    }
+
+
+    .section-network{
+        background-color: #fff;
+        margin-top: -170px;
+        padding-top: 240px;
+        margin-bottom: 50px;
+
+        h2{
+            font-family: 'PlayfairDisplay',serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+        img{
+            max-width: 100%;
+        }
+
+    }
+
+    .section-testimonial-heading{
+        background: linear-gradient(#fff 0%,#f7f9ff 100%);
+        padding-top: 50px;
+        min-height: 506px;
+
+        h2{
+            font-family: 'Playfair Display',serif;
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+
+   .section-testimonial-heading{
+    background: linear-gradient(#fff 0%,#f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+        h2{
+            font-family: 'Playfair Display',serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+   }
