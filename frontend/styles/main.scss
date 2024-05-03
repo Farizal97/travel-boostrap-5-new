@@ -257,6 +257,7 @@ body {
             font-weight: 200;
             font-size: 26px;
             color: #6e6e6e;
+            min-height: 130px;
         }
 
         .trip-to{
@@ -271,4 +272,15 @@ body {
         }
 
     }
+
+    .btn-get-started{
+        background-color: #FF9e53;
+        color: #fff;
+
+        &:hover{
+            background-color: #FFAA69;
+            color: #fff;
+        }
+    }
+
    }
