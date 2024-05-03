@@ -283,4 +283,14 @@ body {
         }
     }
 
+    .btn-need-help{
+        background-color: #f2f2f2;
+        color: #c3c3c3;
+
+        &:hover{
+            background-color: #fafafa;
+            color: #c3c3c3;
+        }
+    }
+
    }

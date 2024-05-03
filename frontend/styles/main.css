@@ -220,4 +220,12 @@ body {
 .section-testimonial-content .btn-get-started:hover {
   background-color: #FFAA69;
   color: #fff;
+}
+.section-testimonial-content .btn-need-help {
+  background-color: #f2f2f2;
+  color: #c3c3c3;
+}
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #fafafa;
+  color: #c3c3c3;
 }/*# sourceMappingURL=main.css.map */
