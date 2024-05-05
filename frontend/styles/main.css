@@ -112,7 +112,7 @@ body {
 
 .section-popular-content .section-popular-travel .card-travel {
   min-height: 380px;
-  background-color: #000;
+  background: #fff;
   color: #fff;
   padding: 30px;
   background-size: cover;
@@ -232,4 +232,71 @@ body {
 
 .section-footer a {
   color: #071C4D;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -50px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 20px;
+  margin-bottom: 75px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-content h1 {
+  font-size: 26px;
+}
+.section-details-content h2 {
+  font-size: 20px;
+}
+.section-details-content p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-details-content .features {
+  margin-top: 20px;
+}
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  box-shadow: none;
 }/*# sourceMappingURL=main.css.map */
