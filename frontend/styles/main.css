@@ -267,6 +267,11 @@ body {
   font-size: 18px;
   color: #b1b1b1;
 }
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
 .section-details-content .features {
   margin-top: 20px;
 }
@@ -299,4 +304,18 @@ body {
 .section-details-content .gallery .xzoom-container .xactive {
   border: 2px solid #1abc9c;
   box-shadow: none;
+}
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+.section-details-content .btn-join-now {
+  background-color: #FF9e53;
+  color: #fff;
+  border-radius: 0;
+  margin-bottom: 25px;
+  padding: 176px;
+}
+.section-details-content .btn-join-now:hover {
+  background-color: #ffb57c;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

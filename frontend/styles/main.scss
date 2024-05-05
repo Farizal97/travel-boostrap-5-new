@@ -341,6 +341,12 @@ body {
         color: #b1b1b1;
     }
 
+    .card-right{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
+    }
+
     .features{
         margin-top: 20px;
 
@@ -381,6 +387,26 @@ body {
         border: 2px solid #1abc9c;
         box-shadow: none;
       }
+    }
+  }
+
+  .join-container{
+    margin-top: -16px;
+    
+    
+  }
+
+  .btn-join-now{
+    background-color: #FF9e53;
+    color: #fff;
+    border-radius: 0;
+    margin-bottom: 25px;
+    padding: 176px;
+    
+
+    &:hover{
+        background-color: #ffb57c;
+        color: #fff;
     }
   }
 
