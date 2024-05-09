@@ -20,6 +20,7 @@ body {
 .navbar-brand{
     img{
         max-height: 40px;
+        
     }
 }
 
@@ -27,6 +28,7 @@ body {
 .nav-item {
   margin-right: 24px;
   font-weight: 200;
+  text-align: center;
 }
 
 .nav-item.active a {
@@ -341,11 +343,30 @@ body {
         color: #b1b1b1;
     }
 
-    .card-right{
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        border-bottom: 0;
+     h3{
+        font-weight: 600;
+        font-size: 14px;
+        color: #071C4D;
     }
+
+    .trip-informations{
+        th{
+            font-weight: 300;
+            font-size: 18px;
+            color: #071C4D;
+        }
+
+        td{
+            font-weight: 300;
+            font-size: 18px;
+            color: #b1b1b1;
+        }
+
+        
+
+    }
+
+
 
     .features{
         margin-top: 20px;
@@ -387,6 +408,14 @@ body {
         border: 2px solid #1abc9c;
         box-shadow: none;
       }
+    }
+  }
+
+
+  .member{
+    .member-image{
+        width: 40px;
+        height: 40px;
     }
   }
 
