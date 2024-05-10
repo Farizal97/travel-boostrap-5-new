@@ -29,7 +29,7 @@ body {
   font-weight: 600;
 }
 
-.btn -navbar-right {
+.btn-navbar-right {
   margin-top: -10px !important;
   margin-bottom: -8px !important;
   margin-right: -18px !important;
@@ -238,7 +238,7 @@ body {
 .section-details-header {
   min-height: 310px;
   background: #e4e6eb;
-  margin-top: -50px;
+  margin-top: -70px;
 }
 
 .section-details-content {
@@ -247,90 +247,10 @@ body {
 }
 .section-details-content .breadcrumb {
   background-color: transparent;
-  padding: 20px;
-  margin-bottom: 75px;
+  padding: 50px;
+  margin-bottom: 30px;
 }
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
   color: #071C4D;
-}
-.section-details-content .card-details {
-  padding: 30px;
-  border-radius: 11px;
-}
-.section-details-content h1 {
-  font-size: 26px;
-}
-.section-details-content h2 {
-  font-size: 20px;
-}
-.section-details-content p {
-  font-size: 18px;
-  color: #b1b1b1;
-}
-.section-details-content h3 {
-  font-weight: 600;
-  font-size: 14px;
-  color: #071C4D;
-}
-.section-details-content .trip-informations th {
-  font-weight: 300;
-  font-size: 18px;
-  color: #071C4D;
-}
-.section-details-content .trip-informations td {
-  font-weight: 300;
-  font-size: 18px;
-  color: #b1b1b1;
-}
-.section-details-content .features {
-  margin-top: 20px;
-}
-.section-details-content .features h3 {
-  font-size: 18px;
-  color: #071C4D;
-  margin-bottom: 0;
-}
-.section-details-content .features p {
-  margin-bottom: 0;
-}
-.section-details-content .features .description {
-  margin-left: 10px;
-  overflow: hidden;
-  float: left;
-}
-.section-details-content .features .features-image {
-  width: 45px;
-  height: 45px;
-  float: left;
-}
-.section-details-content .gallery .xzoom-container {
-  display: block;
-}
-.section-details-content .gallery .xzoom-container .xzoom {
-  width: 100%;
-  box-shadow: none;
-  margin-bottom: 10px;
-}
-.section-details-content .gallery .xzoom-container .xactive {
-  border: 2px solid #1abc9c;
-  box-shadow: none;
-}
-.section-details-content .member .member-image {
-  width: 40px;
-  height: 40px;
-}
-.section-details-content .join-container {
-  margin-top: -16px;
-}
-.section-details-content .btn-join-now {
-  background-color: #FF9e53;
-  color: #fff;
-  border-radius: 0;
-  margin-bottom: 25px;
-  padding: 176px;
-}
-.section-details-content .btn-join-now:hover {
-  background-color: #ffb57c;
-  color: #fff;
 }/*# sourceMappingURL=main.css.map */

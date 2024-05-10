@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -9,8 +10,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
 
-   
-
     
     <!-- main scss -->
     <link rel="stylesheet" href="frontend/styles/main.css">
@@ -20,18 +19,19 @@
 </style>
 
 
- <!-- xzoom -->
-    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css">
 
-   
 
-    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/all.css">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/style.css">
 
     <title>Nomads Travel</title>
 </head>
 
 <body>
-  <!-- Navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -43,10 +43,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav text-uppercase mx-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="#">Paket Travel</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -64,27 +64,15 @@
                         <a class="nav-link" href="#">Testimonial</a>
                     </li>
                 </ul>
-                <!-- Mobile Button -->
-                <form  class="form-inline d-sm-block d-md-none">
-                    <button class="btn btn-login  my-2 my-sm-0">
-                        Masuk
-                    </button>
-                </form>
-                <!-- akhir mobile button -->
-                <!-- Desktop Button -->
-                <form  class="form-inline my-2 my-lg-0 d-none d-md-block">
-                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
-                        Masuk
-                    </button>
-                </form>
-                <!-- Akhir Desktop Button -->
             </div>
         </div>
     </nav>
     <!-- Akhir Navbar -->
 
    
-    <!-- header -->
+   
+
+
     <main>
         <section class="section-details-header"></section>
         <section class="section-details-content">
@@ -94,126 +82,13 @@
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">Paket Travel</li>
-                                 <li class="breadcrumb-item active">Details</li>
+                                <li class="breadcrumb-item active">Details</li>
                             </ol>
                         </nav>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-8 pl-lg-0">
-                        <div class="card card-details">
-                            <h1>Nusa Penida</h1>
-                            <p>Republic of Indonesia Raya</p>
-                            <div class="gallery">
-                                <div class="xzoom-container">
-                                    <img src="frontend/images/details-1.jpg" class="xzoom" id="xzoom-default" xoriginal="frontend/images/details-1.jpg">
-                                </div>
-                                <div class="xzoom-thumbs">
-                                    <a href="frontend/images/details-1.jpg">
-                                        <img src="frontend/images/details-1.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details-1.jpg">
-                                    </a>
-                                    <!-- 2 -->
-                                    <a href="frontend/images/details-2.png">
-                                        <img src="frontend/images/details-2.png" class="xzoom-gallery" width="128" xpreview="frontend/images/details-2.png">
-                                    </a>
-                                    <!-- 3 -->
-                                    <a href="frontend/images/details-3.png">
-                                        <img src="frontend/images/details-3.png" class="xzoom-gallery" width="128" xpreview="frontend/images/details-3.png">
-                                    </a>
-                                    <!-- 4 -->
-                                    <a href="frontend/images/details-4.png">
-                                        <img src="frontend/images/details-4.png" class="xzoom-gallery" width="128" xpreview="frontend/images/details-4.png">
-                                    </a>
-                                    <!-- 5 -->
-                                    <a href="frontend/images/details-5.png">
-                                        <img src="frontend/images/details-5.png" class="xzoom-gallery" width="128" xpreview="frontend/images/details-5.png">
-                                    </a>
-                                </div>
-                            </div>
-                            <h2>Tentang Wisata</h2>
-                            <p>Nusa Penida is an island southeast of Indonesia’s island Bali and a district of Klungkung 
-Regency that includes the neighbouring small island of Nusa Lembongan. The Badung 
-Strait separates the island and Bali. The interior of Nusa Penida is hilly with a maximum 
-altitude of 524 metres. It is drier than the nearby island of Bali.</p>
-<p>Bali and a district of Klungkung Regency that includes the neighbouring small island of 
-Nusa Lembongan. The Badung Strait separates the island and Bali.</p>
-<div class="features row pt-3">
-                    <div class="col-md-4">
-                      <img
-                        src="frontend/images/ic_event.png"
-                        alt=""
-                        class="features-image"
-                      />
-                      <div class="description">
-                        <h3>Featured Ticket</h3>
-                        <p>Tari Kecak</p>
-                      </div>
-                    </div>
-                    <div class="col-md-4 border-left">
-                        <div class="description">
-                            <img
-                              src="frontend/images/ic_bahasa.png"
-                              alt=""
-                              class="features-image"
-                            />
-                            <div class="description">
-                                <h3>Language</h3>
-                                <p>Bahasa Indonesia</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 border-left">
-                      <img
-                        src="frontend/images/ic_foods.png"
-                        alt=""
-                        class="features-image"
-                      />
-                      <div class="description">
-                        <h3>Foods</h3>
-                        <p>Local Foods</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="card card-details card-right">
-                    <h2>Members are going</h2>
-                    <div class="members my-2">
-                        <img src="frontend/images/members.png" alt="" class="member-image mr-1">
-                    </div>
-                    <hr />
-                    <h2>Trip Informations</h2>
-                    <table class="table-informations">
-                        <tr>
-                            <th width="50%">Date of Departure</th>
-                            <td width="50%" class="text-right">22 Aug, 2024</td>
-                        </tr>
-                        <!-- 2 -->
-                        <tr>
-                            <th width="50%">Duration</th>
-                            <td width="50%" class="text-right">4D 3N</td>
-                        </tr>
-                        <!-- 3 -->
-<tr>
-                            <th width="50%">Type</th>
-                            <td width="50%" class="text-right">Open Trip</td>
-                        </tr>
-                        <!-- 4 -->
-                         <th width="50%">Price</th>
-                            <td width="50%" class="text-right">$80,00 / person</td>
-                       </tr>
-                </table>
-              </div>
-              <div class="join-container">
-                <a href="checkout.html" class="btn btn-block btn-join-now mt-3 py-2"
-                  >Join Now</a
-                >
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </main>
 
 
@@ -291,25 +166,16 @@ Nusa Lembongan. The Badung Strait separates the island and Bali.</p>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <!-- <script src="frontend/libraries/retina/retina.js"></script> -->
-   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
-    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <script src="frontend/libraries/bootstrap/js/all.js"></script>
-     <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
-    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('.xzoom,.xzoom-gallery').xzoom({
-          zoomWidth: 500,
-          title: false,
-          tint: '#333',
-          Xoffset: 15
-        });
-      });
-    </script>
 
 </body>
 
