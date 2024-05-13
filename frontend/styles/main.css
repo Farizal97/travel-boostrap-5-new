@@ -242,12 +242,12 @@ body {
 }
 
 .section-details-content {
-  margin-top: -210px;
+  margin-top: -160px;
   min-height: 100vh;
 }
 .section-details-content .breadcrumb {
   background-color: transparent;
-  padding: 50px;
+  padding: 0;
   margin-bottom: 30px;
 }
 .section-details-content .breadcrumb-item.active {
