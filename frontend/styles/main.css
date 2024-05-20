@@ -242,13 +242,13 @@ body {
 }
 
 .section-details-content {
-  margin-top: -160px;
+  margin-top: -180px;
   min-height: 100vh;
 }
 .section-details-content .breadcrumb {
   background-color: transparent;
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: 120px;
 }
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
@@ -267,6 +267,11 @@ body {
 .section-details-content .card-details p {
   font-size: 18px;
   color: #b1b1b1;
+}
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
 }
 .section-details-content .features {
   margin-top: 20px;
@@ -300,4 +305,21 @@ body {
 .section-details-content .gallery .xzoom-container .xactive {
   border: 2px solid #1abc9c;
   box-shadow: none;
+}
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+.section-details-content .join-container {
+  margin-top: -18px;
+}
+.section-details-content .btn-join-now {
+  background-color: #FF9e53;
+  color: #fff;
+  border-radius: 0;
+  width: 416px;
+}
+.section-details-content .btn-join-now:hover {
+  background-color: #FFb57c;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

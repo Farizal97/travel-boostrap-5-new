@@ -311,12 +311,12 @@ body {
 }
 
 .section-details-content{
-    margin-top: -160px;
+    margin-top: -180px;
     min-height: 100vh;
     .breadcrumb{
         background-color: transparent;
         padding: 0;
-        margin-bottom: 30px;
+        margin-bottom: 120px;
     }
 
     .breadcrumb-item{
@@ -342,6 +342,12 @@ body {
             font-size: 18px;
             color: #b1b1b1;
         }
+    }
+
+    .card-right{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
     }
 
     .features{
@@ -387,5 +393,30 @@ body {
       }
     }
   }
+
+  .member{
+    .member-image{
+        width: 40px;
+        height: 40px;
+    }
+  }
+
+//   join container
+.join-container{
+    margin-top: -18px;
+}
+
+.btn-join-now{
+    background-color: #FF9e53;
+    color: #fff;
+    border-radius: 0;
+    width: 416px;
+    
+
+    &:hover{
+     background-color: #FFb57c;
+    color: #fff;
+    }
+}
 
 }
