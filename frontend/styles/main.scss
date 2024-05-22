@@ -28,7 +28,7 @@ body {
 .nav-item {
   margin-right: 24px;
   font-weight: 200;
-  text-align: center;
+  text-align: left;
 }
 
 .nav-item.active a {
@@ -40,6 +40,10 @@ body {
   color: #F9B234;
   font-weight: 600;
 } 
+
+
+
+
 
 
 
@@ -311,12 +315,12 @@ body {
 }
 
 .section-details-content{
-    margin-top: -180px;
+    margin-top: -160px;
     min-height: 100vh;
     .breadcrumb{
         background-color: transparent;
         padding: 0;
-        margin-bottom: 120px;
+        margin-bottom: 80px;
     }
 
     .breadcrumb-item{
@@ -329,6 +333,30 @@ body {
     .card-details{
         padding: 30px;
         border-radius: 11px;
+        
+        .trip-informations {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+
+      .text-blue {
+        color: #071C4D;
+        font-weight: bold;
+      }
+
+      .text-orange {
+        color: #FF9E53;
+        font-weight: bold;
+      }
+    }
 
         h1{
             font-size: 26px;
@@ -342,7 +370,22 @@ body {
             font-size: 18px;
             color: #b1b1b1;
         }
+
+        .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
     }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+  }
+
+    
 
     .card-right{
         border-bottom-left-radius: 0;
@@ -420,3 +463,5 @@ body {
 }
 
 }
+
+
